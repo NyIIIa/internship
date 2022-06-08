@@ -1,0 +1,25 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Enterprise.Model.SubdivisionMaster
+@{
+    ViewBag.Title = "SubdivisionMaster";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Редактирование профиля руководителя подразделения
+  </div>
+  <form method="post" class="profile__form container">
+    <input hidden type="number" value="@Model.Id">
+    <label for="">Имя</label>
+    <input name="firstName" type="text" value="@Model.FirstName" required>
+    <label for="">Фамилия</label>
+    <input name="lastName" type="text" value="@Model.LastName" required>
+    <label for="">Отчество</label>
+    <input name="patronicName" type="text" value="@Model.PatronicName" required>
+    <label for="">Дата рождения</label>
+    <input name="dateBirth" type="text" value="@Model.DateBirth">
+    <label for="">Название подразделения</label>
+    <input name="titleSubdivision" type="text" value="@Model.Subdivision.Title" readonly required>
+    <button type="submit" class="profile__add">Изменить данные</button>
+  </form>
+  <a asp-controller="SubdivisionMaster" asp-action="Index" class="come-back container">Вернуться назад</a>

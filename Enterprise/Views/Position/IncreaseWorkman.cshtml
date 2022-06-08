@@ -1,0 +1,32 @@
+﻿@using Enterprise.Model.Enums
+@model Enterprise.Model.Workman
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "IncreaseWorkman";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Повышение профиля рабочего подразделения
+</div>
+<form method="post" class="profile__form container">
+    <input hidden type="number" value="@Model.Id">
+    <label for="">Имя</label>
+    <input name="firstName" type="text" value="@Model.FirstName" readonly>
+    <label for="">Фамилия</label>
+    <input name="lastName" type="text" value="@Model.LastName" readonly>
+    <label for="">Отчество</label>
+    <input name="patronicName" type="text" value="@Model.PatronicName" readonly>
+    <label for="">Дата рождения</label>
+    <input name="dateBirth" type="text" value="@Model.DateBirth" readonly>
+    <label for="">Название подразделения</label>
+    <input name="titleSubdivision" type="text" value="@Model.Subdivision.Title" readonly>
+    <label for="">Доступная должность на повышение:</label>
+    <select class="form__list" name="position">
+        <option value="@PositionTitle.Headmaster">Директор подразделения</option>
+        <option value="@PositionTitle.SubdivisionMaster">Руководитель подразделения</option>
+        <option value="@PositionTitle.Inspector">Контроллер подразделения</option>
+    </select>
+    <button type="submit" class="profile__add">Повысить</button>
+</form>
+<a asp-controller="Position" asp-action="Index" class="come-back container">Вернуться назад</a>

@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Enterprise
+build_property.RootNamespace = Enterprise
+build_property.ProjectDir = C:\Users\nedvi\Dektop\Desktop\internship\Enterprise\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nedvi\Dektop\Desktop\internship\Enterprise
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/ErrorAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxFcnJvckFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/ErrorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxFcnJvckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Headmaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZG1hc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/ErrorAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXEVycm9yQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/ErrorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXEVycm9yRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Inspector/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zcGVjdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/IncreaseInspector.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cSW5jcmVhc2VJbnNwZWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/IncreaseSubdivisionMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cSW5jcmVhc2VTdWJkaXZpc2lvbk1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/IncreaseWorkman.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cSW5jcmVhc2VXb3JrbWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/TableHeadmaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cVGFibGVIZWFkbWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/TableInspector.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cVGFibGVJbnNwZWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/TableSubdivisionMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cVGFibGVTdWJkaXZpc2lvbk1hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Position/TableWorkman.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zaXRpb25cVGFibGVXb3JrbWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SelectionSubdivision/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0aW9uU3ViZGl2aXNpb25cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SelectionSubdivision/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0aW9uU3ViZGl2aXNpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SelectionSubdivision/Profiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsZWN0aW9uU3ViZGl2aXNpb25cUHJvZmlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/ErrorAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcRXJyb3JBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/ErrorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcRXJyb3JFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/SubdivisionMaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViZGl2aXNpb25NYXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/ErrorAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxFcnJvckFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/ErrorEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxFcnJvckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nedvi/Dektop/Desktop/internship/Enterprise/Views/Workman/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya21hblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

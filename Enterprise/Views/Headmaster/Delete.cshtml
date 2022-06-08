@@ -1,0 +1,25 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model Enterprise.Model.Headmaster
+@{
+    ViewBag.Title = "Headmaster";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Удаление профиля директора подразделения
+  </div>
+  <form method="post" class="profile__form container">
+    <input name="id" value="@Model.Id" hidden type="number">
+    <label for="">Имя</label>
+    <input name="firstName" value="@Model.FirstName" readonly type="text">
+    <label for="">Фамилия</label>
+    <input name="lastName" value="@Model.LastName" readonly type="text">
+    <label for="">Отчество</label>
+    <input name="patronicName" value="@Model.PatronicName" readonly type="text">
+    <label for="">Дата рождения</label>
+    <input name="dateBirth" value="@Model.DateBirth" readonly type="text">
+    <label for="">Название подразделения</label>
+    <input name="titleSubdivision" value="@Model.Subdivision.Title" readonly type="text">
+    <button type="submit" class="profile__add">Удалить данные</button>
+  </form>
+  <a asp-controller="Headmaster" asp-action="Index" class="come-back container">Вернуться назад</a>

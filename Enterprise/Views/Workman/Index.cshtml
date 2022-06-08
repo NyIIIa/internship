@@ -1,0 +1,37 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Enterprise.Model.Workman>
+@{
+    ViewBag.Title = "Workman";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Профили рабочих всех подразделений
+    <a asp-controller="Workman" asp-action="Create" class="profile__link">Добавить рабочего</a>
+  </div>
+  <table class="profile__table container">
+    <tr>
+      <th>Фамилия</th>
+      <th>Имя</th>
+      <th>Отчество</th>
+      <th>Дата Рождения</th>
+      <th>Должность</th>
+      <th>Название подразделения</th>
+      <th>Руководитель подразделения</th>
+      <th></th>
+      <th></th>
+    </tr>
+    @foreach (var workman in Model)
+    {<tr>
+      <td>@workman.LastName</td>
+      <td>@workman.FirstName</td>
+      <td>@workman.PatronicName</td>
+      <td>@workman.DateBirth</td>
+      <td>Рабочий</td>
+      <td>@workman.Subdivision.Title</td>
+      <td>@workman.FullNameSubdivisionMaster</td>
+      <td><a asp-controller="Workman" asp-action="Edit" asp-route-id="@workman.Id" class="profile__editLink">Редактировать</a></td>
+    <td><a asp-controller="Workman" asp-action="Delete" asp-route-id="@workman.Id" class="profile__editLink">Удалить</a></td>
+    </tr>
+    }
+  </table>

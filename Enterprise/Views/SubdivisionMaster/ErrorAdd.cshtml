@@ -1,0 +1,11 @@
+﻿@model Enterprise.Model.SubdivisionMaster
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "SubdivisionMaster";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Руководитель подразделения "@Model.Subdivision.Title" с именем "@Model.FirstName" и фамилией "@Model.LastName" уже существует.
+</div>
+<a asp-controller="Workman" asp-action="Index" class="come-back container">Вернуться назад</a>

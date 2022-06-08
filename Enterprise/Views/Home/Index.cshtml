@@ -1,0 +1,24 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+  ViewBag.Title = "Index";
+    Layout = "_Layout";
+}
+
+<main class="main__container container">
+
+    <h1 class="main__title">Welcome!</h1>
+
+    <div class="main__selection">
+      <div class="selection__title">Выборка сотрудников</div>
+
+      <div class="selection__container">
+        <div class="selection__job job">
+          <a asp-controller="Position" asp-action="Index" class="job__link">Выборка сотрудников по типу занимаемой должности</a>
+        </div>
+        <div class="selection__subdivision subdivision">
+          <a asp-controller="SelectionSubdivision" asp-action="Index" class="subdivision__link">Выборка сотрудников по подразделению</a>
+        </div>
+      </div>
+
+    </div>
+  </main>

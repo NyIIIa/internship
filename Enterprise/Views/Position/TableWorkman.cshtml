@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Enterprise.Model.Workman>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "TableWorkman";
+    Layout = "_Layout";
+}
+
+<div class="tables__container container">
+
+    <div class="table__title">Рабочие всех подразделений</div>
+    <table class="table__subvisionMaster">
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата Рождения</th>
+        <th>Должность</th>
+        <th>Название подразделения</th>
+        <th></th>
+      </tr>
+      @foreach (var workman in Model)
+      {
+        <tr>
+          <td>@workman.LastName</td>
+          <td>@workman.FirstName</td>
+          <td>@workman.PatronicName</td>
+          <td>@workman.DateBirth</td>
+          <td>Рабочий подразделения</td>
+          <td>@workman.Subdivision.Title</td>
+          <td><a asp-controller="Position" asp-action="IncreaseWorkman" asp-route-id="@workman.Id" class="increase__link">Повысить</a></td>
+        </tr>
+      }
+    </table>
+    
+  </div>
+  <a asp-controller="Position" asp-action="Index" class="come-back container">Вернуться назад</a>

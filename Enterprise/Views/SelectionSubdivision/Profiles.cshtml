@@ -1,0 +1,102 @@
+﻿@model Enterprise.Model.Subdivision
+
+@{
+    ViewBag.Title = "SubdivisionProfiles";
+    Layout = "_Layout";
+}
+
+<div class="tables__container container">
+    <div class="table__title">Директор подразделения</div>
+    <table class="table__headmaster">
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата Рождения</th>
+        <th>Должность</th>
+        <th>Название подразделения</th>
+      </tr>
+      <tr>
+        <td>@Model.Headmaster?.LastName</td>
+        <td>@Model.Headmaster?.FirstName</td>
+        <td>@Model.Headmaster?.PatronicName</td>
+        <td>@Model.Headmaster?.DateBirth</td>
+        <td>Директор</td>
+        <td>@Model.Title</td>
+      </tr>
+    </table>
+    
+    <div class="table__title">Руководители подраздилением</div>
+  <table class="table__subvisionMaster">
+    <tr>
+          <th>Фамилия</th>
+          <th>Имя</th>
+          <th>Отчество</th>
+          <th>Дата Рождения</th>
+          <th>Должность</th>
+          <th>ФИО директора подразделения</th>
+          <th>Название подразделения</th>
+        </tr>
+    @foreach (var subdivisionMaster in Model.SubdivisionMasters)
+    {
+      <tr>
+        <td>@subdivisionMaster.LastName</td>
+        <td>@subdivisionMaster.FirstName</td>
+        <td>@subdivisionMaster.PatronicName</td>
+        <td>@subdivisionMaster.DateBirth</td>
+        <td>Руководитель подразделением</td>
+        <td>@Model.Headmaster?.LastName | @Model.Headmaster?.FirstName | @Model.Headmaster?.PatronicName</td>
+        <td>@Model.Title</td>
+      </tr>
+    }
+  </table>
+  <div class="table__title">Инспекторы подраздиления</div>
+    <table class="table__inspector">
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата Рождения</th>
+        <th>Должность</th>
+        <th>ФИО директора подразделения</th>
+        <th>Название подразделения</th>
+      </tr>
+      @foreach (var inspector in Model.Inspectors)
+          {
+            <tr>
+              <td>@inspector?.LastName</td>
+              <td>@inspector?.FirstName</td>
+              <td>@inspector?.PatronicName</td>
+              <td>@inspector?.DateBirth</td>
+              <td>Инспектор</td>
+              <td>@Model.Headmaster?.LastName | @Model.Headmaster?.FirstName | @Model.Headmaster?.PatronicName</td>
+              <td>@Model.Title</td>
+            </tr>
+          }
+    </table>
+  <div class="table__title">Рабочие подраздиления</div>
+    <table class="table__workman">
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата Рождения</th>
+        <th>Должность</th>
+        <th>ФИО руководителя подразделения</th>
+        <th>Название подразделения</th>
+      </tr>
+      @foreach (var workman in Model.Workman)
+          {
+            <tr>
+              <td>@workman?.LastName</td>
+              <td>@workman?.FirstName</td>
+              <td>@workman?.PatronicName</td>
+              <td>@workman?.DateBirth</td>
+              <td>Рабочий</td>
+              <td>@workman?.FullNameSubdivisionMaster</td>
+              <td>@Model.Title</td>
+            </tr>
+          }
+    </table>
+  </div>
+  <a asp-controller="SelectionSubdivision" asp-action="Index" class="come-back container">Вернуться назад</a>

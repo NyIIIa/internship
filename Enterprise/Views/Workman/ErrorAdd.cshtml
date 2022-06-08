@@ -1,0 +1,11 @@
+﻿@model Enterprise.Model.Workman
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "Workman";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Невозможно добавить рабочего, так как нету руководителя подразделения "@Model.Subdivision.Title", возможно вы ввели не правильно ФИО руководителя.
+</div>
+<a asp-controller="Workman" asp-action="Index" class="come-back container">Вернуться назад</a>

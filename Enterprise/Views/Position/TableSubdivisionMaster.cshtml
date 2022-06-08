@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Enterprise.Model.SubdivisionMaster>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "TableSubdivisionMaster";
+    Layout = "_Layout";
+}
+
+<div class="tables__container container">
+
+    <div class="table__title">Руководители всех подразделений</div>
+    <table class="table__subvisionMaster">
+      <tr>
+        <th>Фамилия</th>
+        <th>Имя</th>
+        <th>Отчество</th>
+        <th>Дата Рождения</th>
+        <th>Должность</th>
+        <th>Название подразделения</th>
+        <th></th>
+      </tr>
+      @foreach (var subdivisionMaster in Model)
+      {
+        <tr>
+          <td>@subdivisionMaster.LastName</td>
+          <td>@subdivisionMaster.FirstName</td>
+          <td>@subdivisionMaster.PatronicName</td>
+          <td>@subdivisionMaster.DateBirth</td>
+          <td>Руководитель подразделения</td>
+          <td>@subdivisionMaster.Subdivision.Title</td>
+          <td><a asp-controller="Position" asp-action="IncreaseSubdivisionMaster" asp-route-id="@subdivisionMaster.Id" class="increase__link">Повысить</a></td>
+        </tr>
+      }
+    </table>
+    
+  </div>
+  <a asp-controller="Position" asp-action="Index" class="come-back container">Вернуться назад</a>

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Enterprise.Model.Subdivision>
+@{
+    ViewBag.Title = "SelectionSubdivision";
+    Layout = "_Layout";
+}
+
+<form method="post" class="form__selection container">
+    <div class="form__title">Выберите доступное название подразделения, по которому будет произведена выборка</div>
+    <select class="form__list" name="titleSubdivision">
+        @foreach (var subdivision in @Model)
+        {
+            <option value="@subdivision.Title">@subdivision.Title</option>   
+        }
+    </select>
+    <button class="form__button">Загрузить сотрудников подразделения</button>
+  </form>

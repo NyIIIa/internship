@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "DERJCH559Ze8ntunZ/t2I6bTfCR0opbiCq2TyjODke0=",
+  "Source": "Enterprise",
+  "BasePath": "_content/Enterprise",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Enterprise\\wwwroot",
+      "Source": "Enterprise",
+      "ContentRoot": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\",
+      "BasePath": "_content/Enterprise",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\css\\style.css",
+      "SourceId": "Enterprise",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\",
+      "BasePath": "_content/Enterprise",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\css\\style.css.map",
+      "SourceId": "Enterprise",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\",
+      "BasePath": "_content/Enterprise",
+      "RelativePath": "css/style.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\css\\style.scss",
+      "SourceId": "Enterprise",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedvi\\Dektop\\Desktop\\internship\\Enterprise\\wwwroot\\",
+      "BasePath": "_content/Enterprise",
+      "RelativePath": "css/style.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.scss"
+    }
+  ]
+}

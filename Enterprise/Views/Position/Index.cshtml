@@ -1,0 +1,17 @@
+﻿@using Enterprise.Model.Enums
+
+@{
+    ViewBag.Title = "Positions";
+    Layout = "_Layout";
+}
+
+<form method="post" class="form__selection container">
+    <div class="form__title">Выберите название должности сотрудника, по которому будет произведена выборка</div>
+    <select class="form__list" name="position">
+      <option value="@PositionTitle.Headmaster">Директор подразделения</option>
+      <option value="@PositionTitle.SubdivisionMaster">Руководитель подразделения</option>
+      <option value="@PositionTitle.Inspector">Контроллер подразделения</option>
+      <option value="@PositionTitle.Workman">Рабочий подразделения</option>
+    </select>
+    <button type="submit" class="form__button">Загрузить должности сотрудников</button>
+  </form>

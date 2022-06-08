@@ -1,0 +1,35 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Enterprise.Model.Inspector>
+@{
+    ViewBag.Title = "Inspectors";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Профили контроллеров всех подразделений
+    <a asp-controller="Inspector" asp-action="Create" class="profile__link">Добавить контроллера</a>
+  </div>
+  <table class="profile__table container">
+    <tr>
+      <th>Фамилия</th>
+      <th>Имя</th>
+      <th>Отчество</th>
+      <th>Дата Рождения</th>
+      <th>Должность</th>
+      <th>Название подразделения</th>
+      <th></th>
+      <th></th>
+    </tr>
+    @foreach (var inspector in Model)
+        {<tr>
+              <td>@inspector.LastName</td>
+              <td>@inspector.FirstName</td>
+              <td>@inspector.PatronicName</td>
+              <td>@inspector.DateBirth</td>
+              <td>Контроллер подразделения</td>
+              <td>@inspector.Subdivision.Title</td>
+              <td><a asp-controller="Inspector" asp-action="Edit" asp-route-id="@inspector.Id" class="profile__editLink">Редактировать</a></td>
+        <td><a asp-controller="Inspector" asp-action="Delete" asp-route-id="@inspector.Id" class="profile__editLink">Удалить</a></td>
+        </tr>
+            }
+  </table>

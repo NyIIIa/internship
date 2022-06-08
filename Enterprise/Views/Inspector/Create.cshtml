@@ -1,0 +1,23 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewBag.Title = "Inspector";
+    Layout = "_Layout";
+}
+
+<div class="profile__title container">
+    Создание профиля контроллера подразделения
+  </div>
+  <form method="post" class="profile__form container">
+    <label for="">Имя</label>
+    <input name="firstName" required type="text">
+    <label for="">Фамилия</label>
+    <input name="lastName"  required type="text">
+    <label for="">Отчество</label>
+    <input name="patronicName" type="text" required>
+    <label for="">Дата рождения</label>
+    <input name="dateBirth" type="date" required>
+    <label for="">Название подразделения</label>
+    <input name="titleSubdivision" type="text" required>
+    <button type="submit" class="profile__add">Добавить контроллера</button>
+  </form>
+  <a asp-controller="Inspector" asp-action="Index" class="come-back container">Вернуться назад</a>

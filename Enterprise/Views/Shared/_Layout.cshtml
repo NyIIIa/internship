@@ -1,0 +1,23 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Enterprise | @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+<header class="header__container container">
+    <nav class="header__menu menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a asp-controller="Home" asp-action="Index" class="menu__link">Главное меню</a></li>
+            <li class="menu__item"><a asp-controller="Headmaster" asp-action="Index" class="menu__link">Управление профилями директоров</a></li>
+            <li class="menu__item"><a asp-controller="Workman" asp-action="Index" class="menu__link">Управление профилями рабочих</a></li>
+            <li class="menu__item"><a asp-controller="SubdivisionMaster" asp-action="Index" class="menu__link">Управление профилями руководителей подразделений</a></li>
+            <li class="menu__item"><a asp-controller="Inspector" asp-action="Index" class="menu__link">Управление профилями контроллеров</a></li>
+        </ul>
+    </nav>
+</header>
+@RenderBody()
+</body>
+</html>
